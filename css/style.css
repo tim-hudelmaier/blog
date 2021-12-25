@@ -1,0 +1,77 @@
+/* ==============
+ * Interesting Colors:
+ * Black: #13070c
+ * Green: #57a773
+ * Blue: #376996
+ * White: #fbfff1 OR #faf3dd
+ * ============== */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+	background: #fbfff1;
+	color: #13070c;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 14px;
+	margin: 0;
+}
+
+header {
+	padding: 20px;
+	font-family: 'Rock 3D', cursive;
+}
+
+main {
+	margin: 0 auto 50px;
+	width: 800px;
+}
+
+footer {
+	border-top: 1px #13070c solid;
+}
+
+ul {
+	text-align: left;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: bold;
+	color: #57a773;
+}
+
+h3 {}
+
+h4 {}
+
+.author {}
+
+.text {
+	width: 600px;
+}
+
+.box {
+	display: flex;
+	width: 85%;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.col {
+	width: 150px;
+	margin: 0 auto;
+}
+
+.summary {
+	width: 600px;
+	margin: 0 0 0 50px;
+	padding: 25px 0;
+	border-top: 1px #13070c solid;
+	border-bottom: 1px #13070c solid;
+}
